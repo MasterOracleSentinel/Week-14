@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    
+    <title>ToDo</title>
+    
+    <div id="idaa0c28c86b675" a='{"t":"g7bs","v":"1.2","lang":"en","locs":[],"ssot":"f","sics":"ds","cbkg":"rgb(211,47,47)","cfnt":"rgb(255,255,255)","cend":"rgba(0,0,0,0.11)"}'><a href="https://sharpweather.com/widgets/">Embed Weather on Website</a> with sharpweather.com</div><script async src="https://static1.sharpweather.com/widgetjs/?id=idaa0c28c86b675"></script>
+
+
+    <h1 style ="text-shadow: 0px; text-align: right;"> .:: <span id="time"> </span> ::. </h1>
+    <script src="index.js">   </script>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <img src="image.png" alt="" height="100" width="100" >
+
+
+    <div id="background-image"></div>
+    <div class="container>
+      <div id="content">
+        <p>"Do what you have TODO ... TODAY!"</p>
+      </div>
+    </div>
+  
+  </head>
+  <body>
+    
+    
+      <h1 style="text-align:left;">the ToDo applet</h1>
+      <h4 style="text-align:left;">Directions: You can add an ITEM by typing in the "Add Todo" section and pressing [ENTER]. To DELETE an ITEM click the (-) symbol.  Click "REFRESH" to start again. </h4>
+      <h4 style="text-align:left;"> </h4>
+
+
+    <!-- we will put our teact component inside this div -->
+    <div id="root"></div>
+
+    <!-- load react -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- load our react component. -->
+    <script src="form.js" defer type="text/babel"></script>
+    <script src="todo.js" defer type="text/babel"></script>    
+    <script src="index.js" defer type="text/babel"></script>
+
+
+  </body>
+</html>
