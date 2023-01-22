@@ -60,3 +60,25 @@ Word count: 50-150
 Did you learn something new from an example your peers shared? Reply to them to continue the conversation.
 ---------------------------------------------
 
+React Hooks Reflection
+-------------------------------
+
+Learning Outcome Addressed
+  5.Explain React Hooks
+  
+------------------------------------
+
+Instructions:
+
+At the beginning of the React Hooks section, you reflected on how using React Hooks might help you organize a project and share logic. Now that you’ve seen Dr. Williams’ lecture videos and have practiced with the useState Hook, reflect on the following: 
+
+What role did useState play between the Shopping Cart and Product List? 
+What are some additional examples of when you could implement useState?
+As you write your response, you may find it difficult to describe your technical knowledge clearly. It’s important that you practice communicating technical ideas to others. This is a valuable skill to potential employers and with practice, you will improve over time.
+
+Submission Instructions:
+
+ 
+
+Word count: 50-100
+Did one of your peers describe this very clearly? Reply to them and let them know. 
