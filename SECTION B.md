@@ -21,3 +21,42 @@ Are you impressed with what your peers have done? Reply to their post to let the
 
 -----------------------------------
 
+Introduction To React Hooks
+
+Learning Outcome Addressed
+  5. Explain React hooks
+
+----------------------------------
+
+Issues with the first version of React
+When React was first introduced, three issues lead to the creation of React Hooks.  
+
+It was difficult to reuse logic between components. You had to restructure your app any time you wanted to use a component within another component, and the hierarchy of components became unwieldy. 
+Components were large and complex because each task had to be split into different lifecycle methods. The logic was split across those lifecycles and could result in thousands of lines of code that were hard to follow.  
+The class-based system was confusing for developers and difficult for machines to compile, so codebases ran slowly and had poor performance.  
+The solution? React Hooks.  
+The team at React concluded that the three issues were symptoms of a larger problem. The smallest unit of functionality that you could control within React was a class, and this did not provide enough flexibility for developers and machines. To solve this problem, they created React Hooks. 
+
+Hooks are the simplest way to reuse code inside React. There are several popular built-in Hooks, such as useState and useEffect, which you will see in Dr. Williams’ videos. You can also write your own custom Hooks. 
+
+Instructions:
+
+ 
+
+Before you watch Dr. Williams’ videos, read  https://dev.to/dan_abramov/making-sense-of-react-hooks-2eib
+
+by Dan Abramov, a member of the React core team. It will help you better understand the context behind the creation of React Hooks.  It is important to note that since its writing, React has made the full transition from classes to functional web components, including hooks.
+
+After reading the article, respond to the following questions: 
+
+How might have Hooks helped you organize the ToDo list components, earlier in this module, differently? 
+Are there any other projects you’ve completed where Hooks could have been useful? 
+If you have used Hooks before, how did they help you?
+Submission Instructions:
+
+ 
+
+Word count: 50-150
+Did you learn something new from an example your peers shared? Reply to them to continue the conversation.
+---------------------------------------------
+
